@@ -22,24 +22,41 @@
 
         .Deeps{
             height: 320px;
+            border-radius: 10px;
         }
         body{
             background-color: rgb(7, 1, 43);
         }
         .navI{
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(40, 41, 54);
             border: 5px solid color();
             border-radius: 10px;
+            text-align: center;
         }
         #h2_oi{
-            color:rgb(0, 0, 0);
-            text-align: center;
+            color:rgb(255, 255, 255);
         }
         #p_nossa{
             color: azure;
         }
         .cara{
             color: pink;
+        }
+        #h2_video{
+            color: brown;
+        }
+        .trailer{
+            text-align: center;
+        }
+        .deepwoken{
+            border-radius: 10px;
+        }
+        .link{
+            background-color: blue;
+            text-align:center;
+            border-radius: 10px;
+            background-position: center;
+
         }
     </style>
 </head>
@@ -52,20 +69,30 @@
         Ele é o cara...
     </h2>
 
-    <p id="p_augusto">De pau. <hr></p><p id="p_guri">Mas a é os guris.</p>  <br> <p id="p_nossa">Nossa que incrível essas linhas.</p> </p>
+    <p id="p_augusto">De pau.</p>
+    <hr>
+    <p id="p_guri">Mas a é os guris.</p>
+    <br>
+    <p id="p_nossa">Nossa que incrível essas linhas.</p>
     <hr>
     <h1 class="augusto">Esse é o INDEX 1</h1>
     <p class="texto">Visite-o, caso queira.</p>
-    <a href="index1.html"> pagina 1</a>
-    <hr>  
+    <div class="link">
+        <a href="index1.html"> 
+            pagina 1
+        </a>
+    </div>
+    <hr>
     <div class="navI">
         <h2 id="h2_oi">
             Top games
         </h2>
-    </div>
         <img class="Deeps" src="images.deeps" alt="Essa imagem é do incrível jogo DEEPWOKEN!">
+    </div>
     <hr>
-    <h2>Trailer do Game</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/DLjtPShGto0?si=MzoI1A2JyatfinkR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="trailer">
+    <h2 id="h2_video">Trailer do Game</h2>
+    <iframe class="deepwoken" width="560" height="315" src="https://www.youtube.com/embed/DLjtPShGto0?si=MzoI1A2JyatfinkR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </body>
 </html>
